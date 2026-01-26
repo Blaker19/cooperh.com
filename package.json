@@ -1,0 +1,17 @@
+{
+    "name": "nichol",
+    "version": "1.1.0",
+    "author": "SRBThemes",
+    "lockfileVersion": 3,
+    "requires": true,
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.7",
+        "autoprefixer": "^10.4.23",
+        "postcss": "^8.5.6",
+        "tailwindcss": "^3.4.19"
+    },
+    "scripts": {
+        "dev": "npx tailwindcss@3 -i tailwind.css -o src/assets/css/style.css --watch",
+        "build": "npx tailwindcss -i tailwind.css -o src/assets/css/style.css --minify"
+    }
+}

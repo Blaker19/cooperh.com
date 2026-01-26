@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.9 60.89">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6c36f6;
+      }
+
+      .cls-2 {
+        fill: #49c6e4;
+      }
+    </style>
+  </defs>
+  <g id="Geometrica-Shapes">
+    <g>
+      <rect class="cls-2" x="25.12" y="1.85" width="3.24" height="28.47" transform="translate(-.13 .22) rotate(-.47)"/>
+      <rect class="cls-2" x=".02" y="36.26" width="28.93" height="3.24" transform="translate(-17.84 13.39) rotate(-31.94)"/>
+      <rect class="cls-2" x="37.34" y="23.36" width="3.24" height="28.91" transform="translate(-13.67 51.15) rotate(-58.37)"/>
+      <path class="cls-1" d="M26.74,60.89L0,46.36V15.33L26.82,0l26.07,15.35v31l-26.16,14.54ZM3.24,44.44l23.48,12.76,22.94-12.75v-27.25L26.8,3.74,3.24,17.21v27.22Z"/>
+      <polygon class="cls-1" points="28.35 59.2 25.11 59.2 25.11 31.47 .98 17.68 2.58 14.87 28.35 29.59 28.35 59.2"/>
+      <rect class="cls-1" x="24.74" y="21.88" width="28.46" height="3.24" transform="translate(-6.53 22.89) rotate(-30.32)"/>
+    </g>
+  </g>
+</svg>
