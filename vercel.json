@@ -1,21 +1,10 @@
 {
-  "version": 2,
   "rewrites": [
-    { "source": "/", "destination": "/src/index.html" },
+    { "source": "/", "destination": "/index.html" },
 
-    { "source": "/3d-modeling", "destination": "/src/3d-modeling.html" },
-    { "source": "/animation", "destination": "/src/animation.html" },
-    { "source": "/traditional-art", "destination": "/src/traditional-art.html" },
-    { "source": "/vfx", "destination": "/src/vfx.html" },
-
-    { "source": "/assets/(.*)", "destination": "/src/assets/$1" },
-
-    { "source": "/(.*)", "destination": "/src/$1" }
-  ],
-  "redirects": [
-    { "source": "/3d-modeling.html", "destination": "/3d-modeling", "permanent": true },
-    { "source": "/animation.html", "destination": "/animation", "permanent": true },
-    { "source": "/traditional-art.html", "destination": "/traditional-art", "permanent": true },
-    { "source": "/vfx.html", "destination": "/vfx", "permanent": true }
+    { "source": "/3d-modeling", "destination": "/3d-modeling.html" },
+    { "source": "/animation", "destination": "/animation.html" },
+    { "source": "/traditional-art", "destination": "/traditional-art.html" },
+    { "source": "/vfx", "destination": "/vfx.html" }
   ]
 }
