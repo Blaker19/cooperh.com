@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" dir="ltr">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Premium Tailwind CSS Creative Personal Portfolio Template" />
+    <meta name="author" content="SRBThemes" />
+
+    <!-- Site Title -->
+    <title>Cooper Harrison - Portfolio</title>
+
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- AOS Css -->
+    <link href="assets/css/aos.css" rel="stylesheet">
+
+    <!-- Style Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<body class="text-base antialiased font-normal font-sora bg-dark text-white">
+  <div class="bg-dark text-white min-h-screen">
+
+
+<!-- Start Navbar -->
+<header>
+  <nav class="fixed top-0 z-50 w-full border-b-2 mobile-menu-bg py-7 bg-dark mobile-nav stickyadd border-white/10">
+    <div class="container">
+      <div class="flex items-center justify-between md:block">
+        <div class="flex items-center justify-between w-full">
+          
+          <!-- Logo -->
+          <div class="relative z-50">
+            <a href="/">
+              <img src="/assets/images/cooper-logo_01.svg" alt="" class="h-14">
+            </a>
+          </div>
+
+          <!-- Mobile hamburger -->
+          <div class="flex items-center gap-5 lg:hidden">
+            <button class="block text-white outline-none lg:hidden mobile-menu-button">
+              <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none">
+                <rect opacity="0.3" x="3" y="17.2" width="18" height="1.6" rx="0.8" fill="currentColor"></rect>
+                <rect opacity="0.5" x="3" y="11.6" width="18" height="1.6" rx="0.8" fill="currentColor"></rect>
+                <rect x="3" y="6" width="18" height="1.6" rx="0.8" fill="currentColor"></rect>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Desktop Menu -->
+          <div class="hidden lg:block">
+            <ul class="flex items-center text-white list-none space-x-7 all-nav">
+
+              <li>
+                <a href="/" class="inline-block py-2 font-semibold leading-6 duration-300">
+                  Home
+                </a>
+              </li>
+
+              <!-- Projects dropdown -->
+              <div class="relative group">
+                <a href="/#projects"
+                   class="inline-flex items-center gap-2 hover:text-purple transition">
+                  Projects
+                  <svg class="w-4 h-4 opacity-70 group-hover:rotate-180 transition" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z" clip-rule="evenodd"/>
+                  </svg>
+                </a>
+
+                <!-- Dropdown panel -->
+                <div
+                  class="absolute left-0 top-full pt-2 w-56
+                         rounded-xl border border-white/10 bg-black/90 backdrop-blur
+                         shadow-xl
+                         opacity-0 invisible translate-y-1
+                         group-hover:opacity-100 group-hover:visible group-hover:translate-y-0
+                         hover:opacity-100 hover:visible hover:translate-y-0
+                         transition z-50">
+
+                  <div class="rounded-xl overflow-hidden">
+                    <a href="/3d-modeling"
+                       class="block px-4 py-3 text-white/90 hover:text-purple hover:bg-white/5 transition">
+                      3D Modeling
+                    </a>
+
+                    <a href="/animation"
+                       class="block px-4 py-3 text-white/90 hover:text-purple hover:bg-white/5 transition">
+                      Animation
+                    </a>
+
+                    <a href="/traditional-art"
+                       class="block px-4 py-3 text-white/90 hover:text-purple hover:bg-white/5 transition">
+                      Traditional Art
+                    </a>
+
+                    <a href="/vfx"
+                       class="block px-4 py-3 text-white/90 hover:text-purple hover:bg-white/5 transition">
+                      VFX
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Contact Button -->
+              <li class="contact">
+                <a href="/#contact"
+                   class="inline-block px-5 py-3 font-semibold leading-none transition-all duration-300 bg-white border border-white text-dark hover:bg-white/90">
+                  Contact
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="hidden lg:hidden mobile-menu">
+        <div class="pt-5">
+          <ul class="text-white">
+
+            <li class="home active">
+              <a href="/" class="inline-block py-2 font-semibold leading-6 duration-300">
+                Home
+              </a>
+            </li>
+
+            <li class="work">
+              <a href="/#projects" class="inline-block py-2 font-semibold leading-6 duration-300">
+                Projects
+              </a>
+            </li>
+
+            <li class="contact">
+              <a href="/#contact"
+                 class="inline-block px-5 py-3 mt-3 font-semibold leading-none transition-all duration-300 bg-white border border-white text-dark hover:bg-white/90">
+                Contact
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+</header>
+<!-- End Navbar -->
+
+                              
+
+
+
+<!-- Start Work -->
+<section id="work" class="relative py-24">
+
+        <!-- Start Work -->
+        <section class="py-16 md:py-24" id="work">
+            <div class="container">
+                <div class="grid grid-cols-1" data-aos="fade-up">
+                    <div class="text-center">
+                        <div class="inline-block">
+                            <p class="bg-purple text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
+                                <span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.33454 9.58362C5.35965 9.83993 6.16007 10.6403 6.41638 11.6655L7.37875 15.5149C7.45002 15.8 7.70616 16 8 16C8.29384 16 8.54998 15.8 8.62125 15.5149L9.58362 11.6655C9.83993 10.6403 10.6403 9.83993 11.6655 9.58362L15.5149 8.62125C15.8 8.54998 16 8.29384 16 8C16 7.70616 15.8 7.45002 15.5149 7.37875L11.6655 6.41638C10.6403 6.16007 9.83993 5.35965 9.58362 4.33454L8.62125 0.485071C8.54998 0.199992 8.29384 0 8 0C7.70616 0 7.45002 0.199991 7.37875 0.485071L6.41638 4.33454C6.16007 5.35965 5.35965 6.16007 4.33454 6.41638L0.485071 7.37875C0.199992 7.45002 0 7.70616 0 8C0 8.29384 0.199991 8.54998 0.485071 8.62125L4.33454 9.58362Z" fill="currentColor"></path>
+                                    </svg>
+                                </span>
+                                Traditional Art
+                            </p>
+                        </div>
+                        <h2 class="font-semibold text-[26px]/normal mt-7">Showcasing My Remarkable Projects</h2>
+                        <p class="mt-5 text-gray max-w-[708px] mx-auto">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning .</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 mt-14 gap-7">
+
+ <!-- Start Traditional Art Project #1 -->
+                    <div class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]" data-aos="fade-up">
+                        <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
+                            <p class="text-warning text-[22px] font-bold">Traditional Art</p>
+                            <a href="javascript:;" class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5">
+                              "Hiding"
+                            </a>
+                            <p class="text-gray max-w-[420px] mt-3 md:mt-5">This graphite drawing was completed for a college art course. Using a provided reference image, the objective of the assignment was to accurately replicate the original drawing, focusing on proportion, value, and detail.
+                              Year: 2025</p>
+                            
+
+                        </div>
+                        <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
+                          <button
+                            type="button"
+                            class="group relative w-full h-full overflow-hidden rounded-xl border-2 border-white/10 hover:border-purple/60 transition"
+                            data-image-src="assets/images/Portfolio/Hiding.jpg"
+                            aria-label="Open image: Hiding"
+                          >
+                            <img
+                              src="assets/images/Portfolio/Hiding.jpg"
+                              class="object-cover w-full h-full mx-auto"
+                              alt="Hiding"
+                            />
+                        
+                            <!-- subtle hover overlay (optional, nice UX) -->
+                            <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition"></div>
+                        
+                            <!-- small expand icon bottom-right (optional) -->
+                            <div class="absolute bottom-3 right-3 w-10 h-10 rounded-full bg-black/50 border border-white/20 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"></path>
+                                <path d="M5 5h6V3H3v8h2V5z"></path>
+                                <path d="M19 19h-6v2h8v-8h-2v6z"></path>
+                                <path d="M5 19v-6H3v8h8v-2H5z"></path>
+                              </svg>
+                            </div>
+                          </button>
+                        </div>
+                    </div>
+ <!-- End Traditional Art Project #1 -->
+
+<!-- Start Traditional Art Project #2 -->
+<div class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]" data-aos="fade-up">
+  <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
+      <p class="text-warning text-[22px] font-bold">Traditional Art</p>
+      <a href="javascript:;" class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5">
+        “Pondering”
+      </a>
+      <p class="text-gray max-w-[420px] mt-3 md:mt-5">This graphite drawing was completed for a college art class. Using a live model, the objective of the assignment was to capture the shape, value, and perspective of the man in a single class.
+        Year: 2025</p>
+     
+
+  </div>
+  <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
+    <button
+      type="button"
+      class="group relative w-full h-full overflow-hidden rounded-xl border-2 border-white/10 hover:border-purple/60 transition"
+      data-image-src="assets/images/Portfolio/Pondering.jpg"
+      aria-label="Open image: Pondering"
+    >
+      <img
+        src="assets/images/Portfolio/Pondering.jpg"
+        class="object-cover w-full h-full mx-auto"
+        alt="Pondering"
+      />
+  
+      <!-- subtle hover overlay (optional, nice UX) -->
+      <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition"></div>
+  
+      <!-- small expand icon bottom-right (optional) -->
+      <div class="absolute bottom-3 right-3 w-10 h-10 rounded-full bg-black/50 border border-white/20 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"></path>
+          <path d="M5 5h6V3H3v8h2V5z"></path>
+          <path d="M19 19h-6v2h8v-8h-2v6z"></path>
+          <path d="M5 19v-6H3v8h8v-2H5z"></path>
+        </svg>
+      </div>
+    </button>
+  </div>
+</div>
+<!-- End Traditional Art Project #2 -->
+
+<!-- Start Traditional Art Project #3 -->
+<div class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]" data-aos="fade-up">
+  <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
+      <p class="text-warning text-[22px] font-bold">Traditional Art</p>
+      <a href="javascript:;" class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5">
+        “Void”
+      </a>
+      <p class="text-gray max-w-[420px] mt-3 md:mt-5">This graphite drawing was for an art class in college. We were tasked to draw anything that would then be put up in a gallery. I went for a surrealist drawing and focused on perspective and value.
+        Year: 2024</p>
+      
+
+  </div>
+  <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
+    <button
+      type="button"
+      class="group relative w-full h-full overflow-hidden rounded-xl border-2 border-white/10 hover:border-purple/60 transition"
+      data-image-src="assets/images/Portfolio/Void.jpg"
+      aria-label="Open image: Void"
+    >
+      <img
+        src="assets/images/Portfolio/Void.jpg"
+        class="object-cover w-full h-full mx-auto"
+        alt="Void"
+      />
+  
+      <!-- subtle hover overlay (optional, nice UX) -->
+      <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition"></div>
+  
+      <!-- small expand icon bottom-right (optional) -->
+      <div class="absolute bottom-3 right-3 w-10 h-10 rounded-full bg-black/50 border border-white/20 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"></path>
+          <path d="M5 5h6V3H3v8h2V5z"></path>
+          <path d="M19 19h-6v2h8v-8h-2v6z"></path>
+          <path d="M5 19v-6H3v8h8v-2H5z"></path>
+        </svg>
+      </div>
+    </button>
+  </div>
+</div>
+<!-- End Traditional Art Project #3 -->
+
+<!-- Start Traditional Art Project #4 -->
+<div class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]" data-aos="fade-up">
+  <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
+      <p class="text-warning text-[22px] font-bold">Traditional Art</p>
+      <a href="javascript:;" class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5">
+        “Stillness”
+      </a>
+      <p class="text-gray max-w-[420px] mt-3 md:mt-5">This drawing was for a college art class. With live reference in the classroom, we were tasked with capturing the setup by focusing on perspective and value.
+        Year: 2024</p>
+      
+
+  </div>
+  <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
+    <button
+      type="button"
+      class="group relative w-full h-full overflow-hidden rounded-xl border-2 border-white/10 hover:border-purple/60 transition"
+      data-image-src="assets/images/Portfolio/Stillness.jpg"
+      aria-label="Open image: Stillness"
+    >
+      <img
+        src="assets/images/Portfolio/Stillness.jpg"
+        class="object-cover w-full h-full mx-auto"
+        alt="Stillness"
+      />
+  
+      <!-- subtle hover overlay (optional, nice UX) -->
+      <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition"></div>
+  
+      <!-- small expand icon bottom-right (optional) -->
+      <div class="absolute bottom-3 right-3 w-10 h-10 rounded-full bg-black/50 border border-white/20 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"></path>
+          <path d="M5 5h6V3H3v8h2V5z"></path>
+          <path d="M19 19h-6v2h8v-8h-2v6z"></path>
+          <path d="M5 19v-6H3v8h8v-2H5z"></path>
+        </svg>
+      </div>
+    </button>
+  </div>
+</div>
+<!-- End Traditional Art Project #4 -->
+
+</section>
+<!-- End Work -->
+
+
+
+
+
+
+
+
+
+
+        <section class="py-16 md:py-24 bg-dark text-white dark:bg-gradient-liner dark:from-white/[4%] dark:to-transparent" id="projects">
+            <div class="container">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-8 gap-7">
+
+ 
+                    <!-- 3D Modeling -->
+                <a href="3d-modeling.html" class="block border-2 border-gray/[12%] p-7 space-y-5 bg-gradient-liner from-white/[4%] to-transparent hover:border-purple/60 hover:-translate-y-1 transition" data-aos="fade-up">
+                    <div class="w-14 h-14 flex items-center justify-center">
+                    <img src="assets/images/3d-icon.svg" alt="" class="w-full h-full object-contain">
+                    </div>
+                     <h3 class="text-xl font-semibold">3D Modeling</h3>
+                        <p class="text-gray">Hard-surface, environment, and character-focused modeling for production-ready assets.</p>
+                        <div class="mt-auto pt-4 flex items-center justify-end">
+                            <span class="inline-flex items-center gap-2 text-sm font-semibold text-white/70 group-hover:text-purple transition">
+                              View work
+                              <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                              </svg>
+                            </span>
+                          </div>
+                          
+                </a>
+
+                    <!-- Animation -->
+                <a href="animation.html" class="block border-2 border-gray/[12%] p-7 space-y-5 bg-gradient-liner from-white/[4%] to-transparent hover:border-purple/60 hover:-translate-y-1 transition" data-aos="fade-up">
+                    <div class="w-14 h-14 flex items-center justify-center">
+                    <img src="assets/images/animation-icon.svg" alt="" class="w-full h-full object-contain">
+                    </div>
+                    <h3 class="text-xl font-semibold">Animation</h3>
+                    <p class="text-gray">Motion, timing, and storytelling — from short loops to polished sequences and reels.</p>
+                    <div class="mt-auto pt-4 flex items-center justify-end">
+                        <span class="inline-flex items-center gap-2 text-sm font-semibold text-white/70 group-hover:text-purple transition">
+                          View work
+                          <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                          </svg>
+                        </span>
+                      </div>
+                      
+                </a>
+
+                    <!-- Traditional Art -->
+                <a href="traditional-art.html" class="block border-2 border-gray/[12%] p-7 space-y-5 bg-gradient-liner from-white/[4%] to-transparent hover:border-purple/60 hover:-translate-y-1 transition" data-aos="fade-up">
+                    <div class="w-14 h-14 flex items-center justify-center">
+                    <img src="assets/images/art-icon.svg" alt="" class="w-full h-full object-contain">
+                    </div>
+                    <h3 class="text-xl font-semibold">Traditional Art</h3>
+                    <p class="text-gray">Sketching, illustration, and hand-crafted work that supports concepts and final visuals.</p>
+                    <div class="mt-auto pt-4 flex items-center justify-end">
+                        <span class="inline-flex items-center gap-2 text-sm font-semibold text-white/70 group-hover:text-purple transition">
+                          View work
+                          <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                          </svg>
+                        </span>
+                      </div>
+                      
+                </a>
+
+                    <!-- VFX -->
+                <a href="vfx.html" class="block border-2 border-gray/[12%] p-7 space-y-5 bg-gradient-liner from-white/[4%] to-transparent hover:border-purple/60 hover:-translate-y-1 transition" data-aos="fade-up">
+                    <div class="w-14 h-14 flex items-center justify-center">
+                    <img src="assets/images/vfx-icon.svg" alt="" class="w-full h-full object-contain">
+                    </div>
+                    <h3 class="text-xl font-semibold">VFX</h3>
+                    <p class="text-gray">Compositing, cleanup, enhancements, and cinematic effects to elevate the final shot.</p>
+                    <div class="mt-auto pt-4 flex items-center justify-end">
+                        <span class="inline-flex items-center gap-2 text-sm font-semibold text-white/70 group-hover:text-purple transition">
+                          View work
+                          <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                          </svg>
+                        </span>
+                      </div>
+                      
+                </a>
+                </div>
+            </div>
+</section>
+
+       <!-- End Projects -->
+
+ 
+
+
+        <section id="contact" class="py-16 md:py-24 border-t border-white/10">
+            <div class="container">
+              <!-- Contact heading -->
+              <div class="text-center">
+                <div class="inline-block">
+                  <p class="bg-purple text-white text-sm font-semibold py-3 px-5 uppercase rounded-full inline-flex items-center gap-2.5">
+                    Contact
+                  </p>
+                </div>
+                <h2 class="font-semibold text-[26px]/normal mt-7">Get In Touch</h2>
+                <p class="mt-5 text-gray max-w-[708px] mx-auto">
+                  Want to collaborate or ask about a project? Reach me here.
+                </p>
+              </div>
+          
+              <!-- Two-column contact cards -->
+              <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-7">
+                <!-- Email -->
+                <a href="mailto:cooper.harrison@icloud.com"
+                   class="group border-2 border-gray/[12%] p-7 bg-gradient-liner from-white/[4%] to-transparent rounded-xl transition hover:border-white/20">
+                  <p class="text-gray text-sm uppercase font-semibold">Email</p>
+                  <p class="mt-2 text-lg font-semibold text-white/90 group-hover:text-purple transition">
+                    cooper.harrison@icloud.com
+                  </p>
+                  <p class="mt-2 text-gray text-sm">Tap to email</p>
+                </a>
+          
+                <!-- Phone -->
+                <a href="tel:+13462936778"
+                   class="group border-2 border-gray/[12%] p-7 bg-gradient-liner from-white/[4%] to-transparent rounded-xl transition hover:border-white/20">
+                  <p class="text-gray text-sm uppercase font-semibold">Phone</p>
+                  <p class="mt-2 text-lg font-semibold text-white/90 group-hover:text-purple transition">
+                    (346) 293-6778
+                  </p>
+                  <p class="mt-2 text-gray text-sm">Tap to call</p>
+                </a>
+              </div>
+          
+              <!-- Footer -->
+              <footer class="mt-16 border-t border-white/10 pt-8">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                  <p class="text-gray text-sm">© <span id="year"></span> Cooper Harrison. All rights reserved.</p>
+                  <div class="flex items-center gap-5 text-sm">
+                    <a href="#home" class="text-white/80 hover:text-purple transition">Home</a>
+                    <a href="#services" class="text-white/80 hover:text-purple transition">Projects</a>
+                    <a href="#contact" class="text-white/80 hover:text-purple transition">Contact</a>
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </section>
+          
+          <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+          </script>
+          
+
+
+
+
+<!-- Lightbox Modal (Vimeo + Images) -->
+<div id="videoModal" class="fixed inset-0 z-[9999] hidden" aria-hidden="true">
+  <div id="videoOverlay" class="absolute inset-0 bg-black/80"></div>
+
+  <div class="relative w-full h-full flex items-center justify-center p-4">
+    <div class="relative w-full max-w-6xl bg-black rounded-2xl overflow-hidden shadow-2xl">
+      <button
+        id="videoClose"
+        class="absolute top-3 right-3 z-10 w-10 h-10 rounded-full bg-black/60 text-white hover:bg-black/80 transition flex items-center justify-center"
+        aria-label="Close"
+        type="button"
+      >
+        ✕
+      </button>
+
+      <!-- Frame host for video OR image -->
+      <div id="videoFrame" class="w-full max-h-[85vh] flex items-center justify-center bg-black">
+        <!-- injected content goes here -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+          <!-- All Javascript -->
+    <script src="assets/js/alpine.js" defer></script>
+
+
+    <!-- AOS Js -->
+    <script src="assets/js/aos.js"></script>
+
+    <!-- Custom Js -->
+    <script src="assets/js/custom.js"></script>
+
+
+  
+
+    
+
+
+
+</body>
+
+</html>
