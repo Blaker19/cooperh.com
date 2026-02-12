@@ -1250,11 +1250,6 @@ select{
   border-top-width: 1px;
 }
 
-.border-dark{
-  --tw-border-opacity: 1;
-  border-color: rgb(5 12 23 / var(--tw-border-opacity, 1));
-}
-
 .border-gray\/20{
   border-color: rgb(119 128 161 / 0.2);
 }
@@ -1437,11 +1432,6 @@ select{
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.py-3\.5{
-  padding-top: 0.875rem;
-  padding-bottom: 0.875rem;
 }
 
 .py-7{
@@ -1704,11 +1694,6 @@ select{
   background-color: rgb(0 0 0 / 0.8);
 }
 
-.hover\:bg-dark:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(5 12 23 / var(--tw-bg-opacity, 1));
-}
-
 .hover\:bg-white\/5:hover{
   background-color: rgb(255 255 255 / 0.05);
 }
@@ -1720,11 +1705,6 @@ select{
 .hover\:text-purple:hover{
   --tw-text-opacity: 1;
   color: rgb(108 54 246 / var(--tw-text-opacity, 1));
-}
-
-.hover\:text-white:hover{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .hover\:opacity-100:hover{
@@ -1777,10 +1757,6 @@ select{
   border-color: rgb(255 255 255 / 12%);
 }
 
-.dark\:border-white\/\[14\%\]:is(.dark *){
-  border-color: rgb(255 255 255 / 14%);
-}
-
 .dark\:bg-gradient-liner:is(.dark *){
   background-image: linear-gradient(var(--tw-gradient-stops));
 }
@@ -1793,16 +1769,6 @@ select{
 
 .dark\:to-transparent:is(.dark *){
   --tw-gradient-to: transparent var(--tw-gradient-to-position);
-}
-
-.dark\:hover\:bg-white:hover:is(.dark *){
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.dark\:hover\:text-dark:hover:is(.dark *){
-  --tw-text-opacity: 1;
-  color: rgb(5 12 23 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 640px){
