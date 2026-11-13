@@ -6,8 +6,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Premium Tailwind CSS Creative Personal Portfolio Template" />
-    <meta name="author" content="SRBThemes" />
+    <meta name="description" content="Animation, visual effects, 3D modeling, and traditional art by Cooper Harrison." />
+    <meta name="author" content="Cooper Harrison" />
 
     <!-- Site Title -->
     <title>Cooper Harrison - Portfolio</title>
@@ -23,13 +23,14 @@
 
     <!-- Style Css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/home.css">
 </head>
 
 
 <body class="text-base antialiased font-normal font-sora bg-dark text-white">
   <div class="bg-dark text-white min-h-screen">
 
-    
+
 
  <!-- Start Navbar -->
 <header>
@@ -37,17 +38,17 @@
       <div class="container">
         <div class="flex items-center justify-between md:block">
           <div class="flex items-center justify-between w-full">
-            
+
             <!-- Logo -->
             <div class="relative z-50">
               <a href="/">
-                <img src="/assets/images/cooper-logo_01.svg" alt="" class="h-14">
+                <img src="/assets/images/cooper-logo_01.svg" alt="Cooper Harrison home" class="h-14">
               </a>
             </div>
-  
+
             <!-- Mobile hamburger -->
             <div class="flex items-center gap-5 lg:hidden">
-              <button class="block text-white outline-none lg:hidden mobile-menu-button">
+              <button aria-label="Toggle navigation" class="block text-white outline-none lg:hidden mobile-menu-button">
                 <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none">
                   <rect opacity="0.3" x="3" y="17.2" width="18" height="1.6" rx="0.8" fill="currentColor"></rect>
                   <rect opacity="0.5" x="3" y="11.6" width="18" height="1.6" rx="0.8" fill="currentColor"></rect>
@@ -55,17 +56,17 @@
                 </svg>
               </button>
             </div>
-  
+
             <!-- Desktop Menu -->
             <div class="hidden lg:block">
               <ul class="flex items-center text-white list-none space-x-7 all-nav">
-  
+
                 <li class="home active">
                   <a href="/" class="inline-block py-2 font-semibold leading-6 duration-300">
                     Home
                   </a>
                 </li>
-  
+
                 <!-- Projects dropdown -->
                 <div class="relative group">
                   <a href="/#projects"
@@ -75,7 +76,7 @@
                       <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z" clip-rule="evenodd"/>
                     </svg>
                   </a>
-  
+
                   <!-- Dropdown panel -->
                   <div
                     class="absolute left-0 top-full pt-2 w-56
@@ -85,23 +86,23 @@
                            group-hover:opacity-100 group-hover:visible group-hover:translate-y-0
                            hover:opacity-100 hover:visible hover:translate-y-0
                            transition z-50">
-  
+
                     <div class="rounded-xl overflow-hidden">
                       <a href="/3d-modeling"
                          class="block px-4 py-3 text-white/90 hover:text-purple hover:bg-white/5 transition">
                         3D Modeling
                       </a>
-  
+
                       <a href="/animation"
                          class="block px-4 py-3 text-white/90 hover:text-purple hover:bg-white/5 transition">
                         Animation
                       </a>
-  
+
                       <a href="/traditional-art"
                          class="block px-4 py-3 text-white/90 hover:text-purple hover:bg-white/5 transition">
                         Traditional Art
                       </a>
-  
+
                       <a href="/vfx"
                          class="block px-4 py-3 text-white/90 hover:text-purple hover:bg-white/5 transition">
                         VFX
@@ -109,7 +110,7 @@
                     </div>
                   </div>
                 </div>
-  
+
                 <!-- Contact Button -->
                 <li class="contact">
                   <a href="/#contact"
@@ -117,417 +118,96 @@
                     Contact
                   </a>
                 </li>
-  
+
               </ul>
             </div>
           </div>
         </div>
-  
+
         <!-- Mobile Menu -->
         <div class="hidden lg:hidden mobile-menu">
           <div class="pt-5">
             <ul class="text-white">
-  
+
               <li class="home active">
                 <a href="/" class="inline-block py-2 font-semibold leading-6 duration-300">
                   Home
                 </a>
               </li>
-  
+
               <li class="work">
                 <a href="/#projects" class="inline-block py-2 font-semibold leading-6 duration-300">
                   Projects
                 </a>
               </li>
-  
+
               <li class="contact">
                 <a href="/#contact"
                    class="inline-block px-5 py-3 mt-3 font-semibold leading-none transition-all duration-300 bg-white border border-white text-dark hover:bg-white/90">
                   Contact
                 </a>
               </li>
-  
+
             </ul>
           </div>
         </div>
-  
+
       </div>
     </nav>
   </header>
   <!-- End Navbar -->
-  
-         
-<!-- Start Hero/Home -->
-<section id="home" class="relative bg-dark pt-44 pb-32 overflow-hidden">
-    <div class="container">
-      <div class="flex flex-col lg:flex-row items-center gap-10">
-  
-        <!-- LEFT: Copy -->
-        <div class="w-full lg:w-1/2">
-          <div class="py-16 md:py-24" data-aos="fade-up">
-            <p class="text-warning bg-warning/[14%] font-semibold text-lg inline-block p-2.5">
-              Hi! I'm Cooper Harrison
-            </p>
-  
-            <h1 class="mt-6 md:mt-8 font-bold text-3xl/normal md:text-[50px]/normal">
-              Visualization Student - Texas A&M University
-            </h1>
-  
-            <p class="text-gray mt-6 max-w-[725px] leading-loose">
-              I am a current Junior at Texas A&M University in College Station, TX. I am foucsed on Virtual Production, Visual  Effects, Filmmaking and 3D Animation. I am currently looking for interships and opportunities to gain experience in the field of Visual Effects and Virtual Production. I am passionate about creating visually stunning and immersive experiences that captivate audiences.
-            </p>
-  
-            <div class="flex flex-wrap gap-5 mt-10">
-              <a href="#projects" class="flex items-center gap-2.5 btn btn-purple">
-                <!-- your icon -->
-                See My Work
-              </a>
-            </div>
-          </div>
-        </div>
-  
-        <!-- RIGHT: Image / Gradient -->
-        <div class="w-full lg:w-1/2 relative">
-          <div class="relative max-w-[600px] ml-auto bg-gradient-radial from-[#6c36f6] to-[#0b0b0b] rounded-2xl">
-            <p class="max-w-2xl mx-auto mt-5 text-5xl font-extrabold text-center text-transparent uppercase md:text-7xl lg:text-8xl bg-gradient-to-b from-white/70 bg-clip-text">
-              Cooper Harrison
-            </p>
-  
-            <div class="relative">
-              <img
-                src="assets/images/CHmain-img5.png"
-                class="block w-full h-auto mx-auto -mt-16 md:mt-0"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-  
-      </div>
-    </div>
-  </section>
-  <!-- End Hero/Home -->
-    
 
 
-
-
-<!-- 
-<section id="home" class="relative bg-dark pt-44 pb-32">
-
-
-       
-        <section class="pt-[100px] relative overflow-hidden" id="home">
-            <div class="container">
-                <div class="grid grid-cols-1">
-                    <div class="flex flex-col flex-wrap items-center gap-5 lg:flex-row">
-                        <div class="w-full lg:w-1/2">
-                            <div class="py-16 md:py-24" data-aos="fade-up">
-                                <p class="text-warning bg-warning/[14%] font-semibold text-lg inline-block p-2.5">Hi! I'm Cooper Harrison</p>
-                                <h1 class="mt-6 md:mt-8 font-bold text-3xl/normal md:text-[50px]/normal">3D Animation Student - LMU</h1>
-                                <p class="text-gray mt-6 max-w-[725px] leading-loose">I'm currently a sophomore at Loyola Marymount University in Los Angeles, CA and am looking to transfer to Texas A&M Visualization School for Fall 2026.</p>
-                                <div class="flex flex-wrap gap-5 mt-10">
-                                    <a href="#projects" class="flex items-center gap-2.5 btn btn-purple">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path opacity="0.2" d="M18 9C18 10.1867 17.6481 11.3467 16.9888 12.3334C16.3295 13.3201 15.3925 14.0892 14.2961 14.5433C13.1997 14.9974 11.9933 15.1162 10.8295 14.8847C9.66557 14.6532 8.59648 14.0818 7.75736 13.2426C6.91825 12.4035 6.3468 11.3344 6.11529 10.1705C5.88378 9.00666 6.0026 7.80026 6.45673 6.7039C6.91085 5.60754 7.67989 4.67047 8.66658 4.01118C9.65328 3.35189 10.8133 3 12 3C13.5913 3 15.1174 3.63214 16.2426 4.75736C17.3679 5.88258 18 7.4087 18 9Z" fill="currentColor" />
-                                            <path d="M21.6488 19.8751C20.2209 17.4067 18.0206 15.6367 15.4528 14.7976C16.723 14.0415 17.7098 12.8893 18.2618 11.518C18.8137 10.1468 18.9003 8.63224 18.5082 7.20701C18.1161 5.78178 17.267 4.52467 16.0912 3.62873C14.9155 2.73279 13.4782 2.24756 12 2.24756C10.5218 2.24756 9.08451 2.73279 7.90878 3.62873C6.73306 4.52467 5.88394 5.78178 5.49183 7.20701C5.09971 8.63224 5.18629 10.1468 5.73825 11.518C6.29021 12.8893 7.27704 14.0415 8.5472 14.7976C5.97938 15.6357 3.77907 17.4057 2.35126 19.8751C2.2989 19.9605 2.26417 20.0555 2.24912 20.1545C2.23407 20.2535 2.239 20.3545 2.26363 20.4516C2.28825 20.5487 2.33207 20.6399 2.3925 20.7197C2.45293 20.7996 2.52874 20.8666 2.61547 20.9167C2.7022 20.9667 2.79808 20.999 2.89745 21.0114C2.99683 21.0238 3.0977 21.0163 3.19409 20.9891C3.29049 20.9619 3.38047 20.9157 3.45872 20.8532C3.53697 20.7907 3.6019 20.7131 3.6497 20.6251C5.41595 17.5726 8.53782 15.7501 12 15.7501C15.4622 15.7501 18.5841 17.5726 20.3503 20.6251C20.3981 20.7131 20.4631 20.7907 20.5413 20.8532C20.6196 20.9157 20.7095 20.9619 20.8059 20.9891C20.9023 21.0163 21.0032 21.0238 21.1026 21.0114C21.2019 20.999 21.2978 20.9667 21.3845 20.9167C21.4713 20.8666 21.5471 20.7996 21.6075 20.7197C21.6679 20.6399 21.7118 20.5487 21.7364 20.4516C21.761 20.3545 21.766 20.2535 21.7509 20.1545C21.7358 20.0555 21.7011 19.9605 21.6488 19.8751ZM6.75001 9.00011C6.75001 7.96176 7.05792 6.94672 7.63479 6.08337C8.21167 5.22001 9.03161 4.5471 9.99092 4.14974C10.9502 3.75238 12.0058 3.64841 13.0242 3.85099C14.0426 4.05356 14.9781 4.55357 15.7123 5.2878C16.4465 6.02202 16.9466 6.95748 17.1491 7.97589C17.3517 8.99429 17.2477 10.0499 16.8504 11.0092C16.453 11.9685 15.7801 12.7884 14.9168 13.3653C14.0534 13.9422 13.0384 14.2501 12 14.2501C10.6081 14.2486 9.27359 13.695 8.28934 12.7108C7.3051 11.7265 6.7515 10.392 6.75001 9.00011Z" fill="currentColor" />
-                                        </svg>
-                                        See My Work
-                                    </a>
-                                  
-                                </div>
-                            </div>
-                                <div class="bg-gradient-radial from-[#6c36f6] to-[#0b0b0b] max-w-[800px] md:top-[100px] lg:absolute bottom-0 ltr:right-0 rtl:left-0 lg:w-6/12 w-full">
-                                     <p class="max-w-2xl mx-auto mt-5 text-5xl font-extrabold text-center text-transparent uppercase md:text-7xl lg:text-8xl bg-gradient-to-b from-white/70 bg-clip-text">Cooper Harrison</p>
-                                <div class="">
-                                <img src="assets/images/CHmain-img5.png" class="inset-x-0 bottom-0 mx-auto -mt-16 lg:absolute md:mt-0" alt="">
-                            </div>
-                        </div>
-                        </div>
-                </div>
-            </div>
-        </section>
-End Home -->
-
-
-
-        <!-- Start My Projects -->
-
-
-
-
-
-
-
-<section class="py-16 md:py-24 bg-dark text-white dark:bg-gradient-liner dark:from-white/[4%] dark:to-transparent" id="projects">
-            <div class="container">
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-8 gap-7">
-
- 
-                    <!-- 3D Modeling -->
-                <a href="3d-modeling.html" class="block border-2 border-gray/[12%] p-7 space-y-5 bg-gradient-liner from-white/[4%] to-transparent hover:border-purple/60 hover:-translate-y-1 transition" data-aos="fade-up">
-                    <div class="w-14 h-14 flex items-center justify-center">
-                    <img src="assets/images/3d-icon.svg" alt="" class="w-full h-full object-contain">
-                    </div>
-                     <h3 class="text-xl font-semibold">3D Modeling</h3>
-                        <p class="text-gray">Hard-surface, environment, and character-focused modeling for production-ready assets.</p>
-                        <div class="mt-auto pt-4 flex items-center justify-end">
-                            <span class="inline-flex items-center gap-2 text-sm font-semibold text-white/70 group-hover:text-purple transition">
-                              View work
-                              <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
-                              </svg>
-                            </span>
-                          </div>
-                          
-                </a>
-
-                    <!-- Animation -->
-                <a href="animation.html" class="block border-2 border-gray/[12%] p-7 space-y-5 bg-gradient-liner from-white/[4%] to-transparent hover:border-purple/60 hover:-translate-y-1 transition" data-aos="fade-up">
-                    <div class="w-14 h-14 flex items-center justify-center">
-                    <img src="assets/images/animation-icon.svg" alt="" class="w-full h-full object-contain">
-                    </div>
-                    <h3 class="text-xl font-semibold">Animation</h3>
-                    <p class="text-gray">Motion, timing, and storytelling — from short loops to polished sequences and reels.</p>
-                    <div class="mt-auto pt-4 flex items-center justify-end">
-                        <span class="inline-flex items-center gap-2 text-sm font-semibold text-white/70 group-hover:text-purple transition">
-                          View work
-                          <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
-                          </svg>
-                        </span>
-                      </div>
-                      
-                </a>
-
-                    <!-- Traditional Art -->
-                <a href="traditional-art.html" class="block border-2 border-gray/[12%] p-7 space-y-5 bg-gradient-liner from-white/[4%] to-transparent hover:border-purple/60 hover:-translate-y-1 transition" data-aos="fade-up">
-                    <div class="w-14 h-14 flex items-center justify-center">
-                    <img src="assets/images/art-icon.svg" alt="" class="w-full h-full object-contain">
-                    </div>
-                    <h3 class="text-xl font-semibold">Traditional Art</h3>
-                    <p class="text-gray">Sketching, illustration, and hand-crafted work that supports concepts and final visuals.</p>
-                    <div class="mt-auto pt-4 flex items-center justify-end">
-                        <span class="inline-flex items-center gap-2 text-sm font-semibold text-white/70 group-hover:text-purple transition">
-                          View work
-                          <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
-                          </svg>
-                        </span>
-                      </div>
-                      
-                </a>
-
-                    <!-- VFX -->
-                <a href="vfx.html" class="block border-2 border-gray/[12%] p-7 space-y-5 bg-gradient-liner from-white/[4%] to-transparent hover:border-purple/60 hover:-translate-y-1 transition" data-aos="fade-up">
-                    <div class="w-14 h-14 flex items-center justify-center">
-                    <img src="assets/images/vfx-icon.svg" alt="" class="w-full h-full object-contain">
-                    </div>
-                    <h3 class="text-xl font-semibold">VFX</h3>
-                    <p class="text-gray">Compositing, cleanup, enhancements, and cinematic effects to elevate the final shot.</p>
-                    <div class="mt-auto pt-4 flex items-center justify-end">
-                        <span class="inline-flex items-center gap-2 text-sm font-semibold text-white/70 group-hover:text-purple transition">
-                          View work
-                          <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
-                          </svg>
-                        </span>
-                      </div>
-                      
-                </a>
-                </div>
-            </div>
+<main>
+<section id="home" class="reel-section" aria-labelledby="reel-title">
+ <div class="container">
+  <div class="reel-heading"><div><p class="portfolio-eyebrow">Cooper Harrison</p><h1 id="reel-title">Demo Reel</h1></div><p class="reel-disciplines">Animation / Visual Effects / 3D Art</p></div>
+  <button type="button" class="reel-stage featured-video" data-vimeo-id="1172717384" aria-label="Play video: Cooper Harrison demo reel">
+   <img src="https://i.vimeocdn.com/video/2132644302-ca6bb71bda7e68f2cdd9e24fd336b71e596431ed901eb90ab778297ffce38865-d_1280x720" alt="Cooper Harrison demo reel preview" fetchpriority="high">
+   <span class="featured-play" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>
+   <span class="featured-video-label">Play demo reel</span>
+  </button>
+  <a class="video-direct-link" href="https://vimeo.com/1172717384" target="_blank" rel="noopener noreferrer">Watch demo reel on Vimeo &nearr;</a>
+  <a href="#about" class="reel-next">Meet the artist &darr;</a>
+ </div>
 </section>
-
-       <!-- End Projects -->
-
- 
-
-  
-
-<!-- Start Work -->
-<section id="work" class="relative py-24">
-
-        <!-- Start Work -->
-        <section class="py-16 md:py-24" id="work">
-            <div class="container">
-                <div class="grid grid-cols-1" data-aos="fade-up">
-                    <div class="text-center">
-                        <div class="inline-block">
-                            <p class="bg-purple text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
-                                <span>
-                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M4.33454 9.58362C5.35965 9.83993 6.16007 10.6403 6.41638 11.6655L7.37875 15.5149C7.45002 15.8 7.70616 16 8 16C8.29384 16 8.54998 15.8 8.62125 15.5149L9.58362 11.6655C9.83993 10.6403 10.6403 9.83993 11.6655 9.58362L15.5149 8.62125C15.8 8.54998 16 8.29384 16 8C16 7.70616 15.8 7.45002 15.5149 7.37875L11.6655 6.41638C10.6403 6.16007 9.83993 5.35965 9.58362 4.33454L8.62125 0.485071C8.54998 0.199992 8.29384 0 8 0C7.70616 0 7.45002 0.199991 7.37875 0.485071L6.41638 4.33454C6.16007 5.35965 5.35965 6.16007 4.33454 6.41638L0.485071 7.37875C0.199992 7.45002 0 7.70616 0 8C0 8.29384 0.199991 8.54998 0.485071 8.62125L4.33454 9.58362Z" fill="currentColor"></path>
-                                    </svg>
-                                </span>
-                                Selected work
-                            </p>
-                        </div>
-                        <h2 class="font-semibold text-[26px]/normal mt-7">Showcasing My Projects</h2>
-    
-                    </div>
-                </div>
- 
- 
- 
- 
- 
-<div class="grid grid-cols-1 mt-14 gap-7">
- <!-- Start 3D Model Project #1 -->
- <div class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]" data-aos="fade-up">
-    <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
-        <p class="text-warning text-[22px] font-bold">3D Modeling</p>
-        <a href="javascript:;" class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5">
-            Bloomoceros
-        </a>
-        <p class="text-gray max-w-[420px] mt-3 md:mt-5">This project was for a class I took in high school my senior year. I used Zbrush to sculpt and polypaint the model, and then I rendered it out in separate layers so I could have more control when I took it into photoshop to create the final image. Year: 2023</p>
-        <div class="flex items-center gap-4 mt-5 md:mt-8">
-            <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="assets/images/zbrush-ex.svg" alt="">
-            </div>
-            <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="assets/images/ps-ex.svg" alt="">
-            </div>
-        </div>
-
-    </div>
-    <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
-      <button
-        type="button"
-        class="group relative w-full h-full overflow-hidden rounded-xl border-2 border-white/10 hover:border-purple/60 transition"
-        data-image-src="assets/images/portfolio/Bloomoceros.jpg"
-        aria-label="Open image: Bloomoceros"
-      >
-        <img
-          src="assets/images/portfolio/Bloomoceros.jpg"
-          class="object-cover w-full h-full mx-auto"
-          alt="Bloomoceros"
-        />
-    
-        <!-- subtle hover overlay (optional, nice UX) -->
-        <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition"></div>
-    
-        <!-- small expand icon bottom-right (optional) -->
-        <div class="absolute bottom-3 right-3 w-10 h-10 rounded-full bg-black/50 border border-white/20 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"></path>
-            <path d="M5 5h6V3H3v8h2V5z"></path>
-            <path d="M19 19h-6v2h8v-8h-2v6z"></path>
-            <path d="M5 19v-6H3v8h8v-2H5z"></path>
-          </svg>
-        </div>
-      </button>
-    </div>
-</div>
-<!-- End 3D Model Project #1 -->
- 
- 
- <!-- Start Animation Project #1 (VIDEO) -->
-<div class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]" data-aos="fade-up">
-    <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
-        <p class="text-warning text-[22px] font-bold">Animation</p>
-        <a href="javascript:;" class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5">
-          Magmaceros
-        </a>
-        <p class="text-gray max-w-[420px] mt-3 md:mt-5">Submission for Punisher’s “Boss Fight Challenge.” I used the Bloomoceros model I created in Zbrush, re-polypainted it, used the quad-draw tool in maya to retopologize the model to be able to be animated inside of Maya. Animated, lit, and rendered inside of Maya. The character running is from Mixamo.
-          Year: 2023</p>
-          <div class="flex items-center gap-4 mt-5 md:mt-8">
-            <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="assets/images/zbrush-ex.svg" alt="">
-            </div>
-            <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="assets/images/maya-ex.svg" alt="">
-            </div>
-        </div>
-    </div>    
-    <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1 flex items-center justify-center p-6 lg:p-0">
-        <button
-          type="button"
-          class="group relative w-full overflow-hidden rounded-xl border-2 border-white/10 hover:border-purple/60 transition aspect-video"
-          data-vimeo-id="1158649156"
-          data-vimeo-hash="1026b5d1b1"
-          aria-label="Play video: Magmaceros"
-        >
-          <img
-            src="assets/images/portfolio/magmaceros-poster.jpg"
-            alt="Magmaceros video preview"
-            class="w-full h-full object-cover"
-          />
-      
-          <!-- dark overlay on hover -->
-          <div class="absolute inset-0 bg-black/20 group-hover:bg-black/35 transition"></div>
-      
-          <!-- play button -->
-          <div class="absolute inset-0 flex items-center justify-center">
-            <div class="w-16 h-16 rounded-full bg-white/10 border border-white/20 backdrop-blur flex items-center justify-center group-hover:scale-105 transition">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" class="text-white translate-x-[1px]">
-                <path d="M8 5v14l11-7z"></path>
-              </svg>
-            </div>
-          </div>
-        </button>
-      </div>
+<section id="about" class="about-section" aria-labelledby="about-title">
+ <div class="container about-layout">
+  <div class="about-portrait"><img src="assets/images/CHmain-img5.png" alt="Cooper Harrison" loading="lazy"></div>
+  <div><p class="portfolio-eyebrow">A little about me</p><h2 id="about-title">Hi, I'm Cooper.</h2>
+   <p>I'm a Visualization student at Texas A&amp;M University in College Station, Texas, focused on virtual production, visual effects, filmmaking, and 3D animation.</p>
+   <p>I love creating immersive worlds and telling stories through motion and art. I'm looking for internships and opportunities to bring that passion to new projects.</p>
+   <a href="#contact" class="about-contact">Let's connect &rarr;</a>
   </div>
-  <!-- End Animation Project #1 -->
- 
- 
-  <!-- Start VFX Project #1 (VIDEO)-->
-  <div class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]" data-aos="fade-up">
-    <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
-        <p class="text-warning text-[22px] font-bold">VFX</p>
-        <a href="javascript:;" class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5">
-          “OTI5” (Short Film)
-        </a>
-        <p class="text-gray max-w-[420px] mt-3 md:mt-5">This was for a senior thesis film I worked on. I added the lights and created the HUD overlay in the Fusion page of Davinci Resolve.
-          Year: 2025</p>
-        <div class="flex items-center gap-4 mt-5 md:mt-8">
-            <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="assets/images/davinci-ex24m.png" alt="">
-            </div>
-        </div>
-        
-    </div>
-    <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1 flex items-center justify-center p-6 lg:p-0">
-        <button
-          type="button"
-          class="group relative w-full overflow-hidden rounded-xl border-2 border-white/10 hover:border-purple/60 transition aspect-video"
-          data-vimeo-id="1158649226"
-          data-vimeo-hash="6767a78a47"
-          aria-label="Play video: OT15"
-        >
-          <img
-            src="assets/images/portfolio/OT15_poster.jpg"
-            alt="OT15 short video preview"
-            class="w-full h-full object-cover"
-          />
-      
-          <!-- dark overlay on hover -->
-          <div class="absolute inset-0 bg-black/20 group-hover:bg-black/35 transition"></div>
-      
-          <!-- play button -->
-          <div class="absolute inset-0 flex items-center justify-center">
-            <div class="w-16 h-16 rounded-full bg-white/10 border border-white/20 backdrop-blur flex items-center justify-center group-hover:scale-105 transition">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" class="text-white translate-x-[1px]">
-                <path d="M8 5v14l11-7z"></path>
-              </svg>
-            </div>
-          </div>
-        </button>
-      </div>
-</div>
-<!-- End VFX Project #1 -->
- 
- 
-
-                </div>
-            </div>
-        </section>
-        <!-- End Work -->
-
- 
-
-
-
+ </div>
+</section>
+<section id="projects" class="gallery-section" aria-labelledby="gallery-title">
+ <div class="container"><p class="portfolio-eyebrow">Selected work</p><h2 id="gallery-title">Animation, art &amp; everything between.</h2>
+ <p class="gallery-intro">A collection of moving images, imagined worlds, and works on paper. Select a piece to take a closer look.</p>
+ <div class="work-gallery">
+<button type="button" class="gallery-card" data-vimeo-id="1158649156" data-vimeo-hash="1026b5d1b1" aria-label="Play video: Magmaceros"><span class="gallery-image"><img src="assets/images/portfolio/magmaceros-poster.jpg" alt="Magmaceros" loading="lazy"><span class="gallery-action" aria-hidden="true">&#9654;</span></span><span class="gallery-meta"><span class="gallery-title">Magmaceros</span><span class="gallery-category">Animation</span></span></button>
+<button type="button" class="gallery-card" data-image-src="assets/images/portfolio/Bloomoceros.jpg" aria-label="View image: Bloomoceros"><span class="gallery-image"><img src="assets/images/portfolio/Bloomoceros.jpg" alt="Bloomoceros" loading="lazy"><span class="gallery-action" aria-hidden="true">&#8599;</span></span><span class="gallery-meta"><span class="gallery-title">Bloomoceros</span><span class="gallery-category">3D Modeling</span></span></button>
+<button type="button" class="gallery-card" data-vimeo-id="1158649163" data-vimeo-hash="44e4dea3fe" aria-label="Play video: Spiderman Landing Pose"><span class="gallery-image"><img src="assets/images/portfolio/spidermanLandingPose.jpg" alt="Spiderman Landing Pose video preview" loading="lazy"><span class="gallery-action" aria-hidden="true">&#9654;</span></span><span class="gallery-meta"><span class="gallery-title">Spiderman Landing Pose</span><span class="gallery-category">Animation</span></span></button>
+<button type="button" class="gallery-card" data-vimeo-id="1158649127" data-vimeo-hash="e891d5a47a" aria-label="Play video: Spider-Man 2099"><span class="gallery-image"><img src="assets/images/portfolio/Spiderman-2099-short-poster.jpg" alt="Spider-Man 2099" loading="lazy"><span class="gallery-action" aria-hidden="true">&#9654;</span></span><span class="gallery-meta"><span class="gallery-title">Spider-Man 2099</span><span class="gallery-category">Animation</span></span></button>
+<button type="button" class="gallery-card" data-vimeo-id="1158649226" data-vimeo-hash="6767a78a47" aria-label="Play video: OT15"><span class="gallery-image"><img src="assets/images/portfolio/OT15_poster.jpg" alt="OT15" loading="lazy"><span class="gallery-action" aria-hidden="true">&#9654;</span></span><span class="gallery-meta"><span class="gallery-title">OT15</span><span class="gallery-category">VFX</span></span></button>
+<button type="button" class="gallery-card" data-image-src="assets/images/portfolio/Pondering.jpg" aria-label="View image: Pondering"><span class="gallery-image"><img src="assets/images/portfolio/Pondering.jpg" alt="Pondering" loading="lazy"><span class="gallery-action" aria-hidden="true">&#8599;</span></span><span class="gallery-meta"><span class="gallery-title">Pondering</span><span class="gallery-category">Traditional Art</span></span></button>
+<button type="button" class="gallery-card" data-vimeo-id="1159372699" data-vimeo-hash="e1eaff7fa6c" aria-label="Play video: The Forgotten Piano"><span class="gallery-image"><img src="assets/images/portfolio/forgottenpiano-poster.jpg" alt="The Forgotten Piano" loading="lazy"><span class="gallery-action" aria-hidden="true">&#9654;</span></span><span class="gallery-meta"><span class="gallery-title">The Forgotten Piano</span><span class="gallery-category">Animation</span></span></button>
+<button type="button" class="gallery-card" data-vimeo-id="1158649247" data-vimeo-hash="859065f325" aria-label="Play video: Hell Hole"><span class="gallery-image"><img src="assets/images/portfolio/cutoff-arm-poster.jpg" alt="Hell Hole video preview" loading="lazy"><span class="gallery-action" aria-hidden="true">&#9654;</span></span><span class="gallery-meta"><span class="gallery-title">Hell Hole</span><span class="gallery-category">VFX</span></span></button>
+<button type="button" class="gallery-card" data-image-src="assets/images/portfolio/Void.jpg" aria-label="View image: Void"><span class="gallery-image"><img src="assets/images/portfolio/Void.jpg" alt="Void" loading="lazy"><span class="gallery-action" aria-hidden="true">&#8599;</span></span><span class="gallery-meta"><span class="gallery-title">Void</span><span class="gallery-category">Traditional Art</span></span></button>
+</div><nav class="gallery-categories" aria-label="Explore more work"><a href="animation.html">All animation &rarr;</a><a href="3d-modeling.html">3D modeling &rarr;</a><a href="traditional-art.html">Traditional art &rarr;</a><a href="vfx.html">Visual effects &rarr;</a></nav></div></section>
+<section id="short-film" class="film-section" aria-labelledby="film-title">
+ <div class="container">
+  <p class="portfolio-eyebrow">Featured film</p>
+  <h2 id="film-title">My Short Film</h2>
+  <button type="button" class="film-player featured-video" data-vimeo-id="1192149022" aria-label="Play video: Cooper Harrison short film">
+   <img src="https://i.vimeocdn.com/video/2206094884-332828007008776f295d50a8f531d7eb629c867420aa149b8dc74fd881fbefcd-d_1280x720" alt="Cooper Harrison short film preview" loading="lazy">
+   <span class="featured-play" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>
+   <span class="featured-video-label">Play short film</span>
+  </button>
+  <a class="video-direct-link" href="https://vimeo.com/1192149022" target="_blank" rel="noopener noreferrer">Watch short film on Vimeo &nearr;</a>
+ </div>
+</section>
+</main>
         <section id="contact" class="py-16 md:py-24 border-t border-white/10">
             <div class="container">
               <!-- Contact heading -->
@@ -542,7 +222,7 @@ End Home -->
                   Want to collaborate or ask about a project? Reach me here.
                 </p>
               </div>
-          
+
               <!-- Two-column contact cards -->
               <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-7">
                 <!-- Email -->
@@ -554,7 +234,7 @@ End Home -->
                   </p>
                   <p class="mt-2 text-gray text-sm">Tap to email</p>
                 </a>
-          
+
                 <!-- Phone -->
                 <a href="tel:+13462936778"
                    class="group border-2 border-gray/[12%] p-7 bg-gradient-liner from-white/[4%] to-transparent rounded-xl transition hover:border-white/20">
@@ -565,28 +245,28 @@ End Home -->
                   <p class="mt-2 text-gray text-sm">Tap to call</p>
                 </a>
               </div>
-          
+
               <!-- Footer -->
               <footer class="mt-16 border-t border-white/10 pt-8">
                 <div class="flex flex-col md:flex-row items-center justify-between gap-4">
                   <p class="text-gray text-sm">© <span id="year"></span> Cooper Harrison. All rights reserved.</p>
                   <div class="flex items-center gap-5 text-sm">
                     <a href="#home" class="text-white/80 hover:text-purple transition">Home</a>
-                    <a href="#services" class="text-white/80 hover:text-purple transition">Projects</a>
+                    <a href="#projects" class="text-white/80 hover:text-purple transition">Projects</a>
                     <a href="#contact" class="text-white/80 hover:text-purple transition">Contact</a>
                   </div>
                 </div>
               </footer>
             </div>
           </section>
-          
+
           <script>
             document.getElementById('year').textContent = new Date().getFullYear();
           </script>
-          
+
 
 <!-- Lightbox Modal (Vimeo + Images) -->
-<div id="videoModal" class="fixed inset-0 z-[9999] hidden" aria-hidden="true">
+<div id="videoModal" class="fixed inset-0 z-[9999] hidden" role="dialog" aria-modal="true" aria-label="Project preview" aria-hidden="true">
   <div id="videoOverlay" class="absolute inset-0 bg-black/80"></div>
 
   <div class="relative w-full h-full flex items-center justify-center p-4">
@@ -612,6 +292,7 @@ End Home -->
 
 
 
+  </div>
           <!-- All Javascript -->
     <script src="assets/js/alpine.js" defer></script>
 

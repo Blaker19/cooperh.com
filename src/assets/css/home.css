@@ -1,0 +1,61 @@
+/* Homepage layout; shared project pages keep their existing styles. */
+main section { scroll-margin-top: 110px; }
+.portfolio-eyebrow { color: #6de8f8; font-size: .75rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; }
+.reel-section { padding: 145px 0 30px; }
+.reel-heading { display: flex; align-items: end; justify-content: space-between; gap: 20px; margin-bottom: 24px; }
+.reel-heading h1 { font-size: clamp(2rem, 4vw, 3.4rem); font-weight: 600; letter-spacing: -.04em; }
+.reel-disciplines { color: #aeb5ca; font-size: .85rem; padding-bottom: 10px; }
+.reel-stage { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: #080b12; border: 1px solid #ffffff20; }
+.reel-next { display: block; width: fit-content; margin: 24px auto 0; color: #aeb5ca; font-size: .8rem; }
+.about-section { padding: 85px 0; }
+.about-layout { display: grid; grid-template-columns: 260px minmax(0, 650px); align-items: center; justify-content: center; gap: 70px; }
+.about-portrait { background: radial-gradient(ellipse at bottom, #6c36f640, transparent 75%); border-bottom: 1px solid #ffffff20; }
+.about-portrait img { width: 100%; height: 300px; object-fit: contain; object-position: bottom; }
+.about-layout h2, .gallery-section h2, .film-section h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 600; line-height: 1.25; letter-spacing: -.035em; margin: 14px 0 20px; }
+.about-layout p:not(.portfolio-eyebrow) { color: #aeb5ca; line-height: 1.85; margin-bottom: 16px; }
+.about-contact { display: inline-block; margin-top: 8px; }
+.gallery-section { padding: 70px 0 90px; border-top: 1px solid #ffffff15; }
+.gallery-intro { color: #aeb5ca; max-width: 650px; line-height: 1.8; }
+.work-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px 24px; margin-top: 38px; }
+.gallery-card { display: block; min-width: 0; text-align: left; }
+.gallery-image { display: block; position: relative; aspect-ratio: 4 / 3; overflow: hidden; background: #0d1523; border: 1px solid #ffffff20; }
+.gallery-image img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s; }
+.gallery-action { position: absolute; right: 16px; bottom: 16px; display: grid; place-items: center; width: 42px; height: 42px; border: 1px solid #ffffff60; border-radius: 50%; background: #050c17b3; }
+.gallery-card:hover img { transform: scale(1.035); }
+.gallery-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 12px; padding-top: 14px; }
+.gallery-title { font-weight: 600; }
+.gallery-category { color: #aeb5ca; font-size: .75rem; padding-top: 3px; }
+.gallery-categories { display: flex; flex-wrap: wrap; gap: 18px 32px; margin-top: 42px; color: #aeb5ca; font-size: .85rem; }
+.gallery-categories a:hover, .reel-next:hover { color: #6de8f8; }
+.gallery-card:focus-visible, main a:focus-visible { outline: 2px solid #6de8f8; outline-offset: 6px; }
+@media (max-width: 900px) {
+  .work-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .about-layout { grid-template-columns: 200px minmax(0, 1fr); gap: 32px; }
+}
+@media (max-width: 600px) {
+  .reel-section { padding-top: 132px; }
+  .reel-heading { align-items: start; flex-direction: column; gap: 8px; }
+  .reel-disciplines { font-size: .7rem; }
+      .about-section, .gallery-section, .film-section { padding: 50px 0; }
+  .about-layout { grid-template-columns: 1fr; gap: 30px; }
+  .about-portrait { max-width: 220px; margin: auto; }
+  .about-portrait img { height: 240px; }
+  .work-gallery { grid-template-columns: 1fr; gap: 28px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto !important; }
+  .gallery-image img { transition: none; }
+}
+
+.film-section { padding: 70px 0 90px; border-top: 1px solid #ffffff15; }
+.film-player { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: #080b12; border: 1px solid #ffffff20; margin-top: 28px; }
+.video-direct-link { display: inline-block; margin-top: 14px; color: #aeb5ca; font-size: .8rem; }
+.video-direct-link:hover { color: #6de8f8; }
+@media (max-width: 600px) { .film-section { padding: 50px 0; } }
+
+.featured-video { display: block; width: 100%; cursor: pointer; color: white; }
+.featured-video > img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.featured-play { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: grid; place-items: center; width: 72px; height: 72px; border: 1px solid #ffffff80; border-radius: 50%; background: #050c17b3; transition: background .2s; }
+.featured-video:hover .featured-play { background: #6c36f6; }
+.featured-video-label { position: absolute; bottom: 0; left: 0; right: 0; padding: 28px 24px 20px; text-align: left; font-weight: 600; background: linear-gradient(transparent, #050c17e6); }
+.featured-video:focus-visible { outline: 2px solid #6de8f8; outline-offset: 6px; }
